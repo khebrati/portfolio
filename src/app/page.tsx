@@ -4,7 +4,6 @@ import Capabilities from "@/components/sections/Capabilities";
 import Projects from "@/components/sections/Projects";
 import Experience from "@/components/sections/Experience";
 import Tools from "@/components/sections/Tools";
-import Thoughts from "@/components/sections/Thoughts";
 import Contact from "@/components/sections/Contact";
 
 export default function Home() {
@@ -16,7 +15,6 @@ export default function Home() {
       <Projects />
       <Experience />
       <Tools />
-      <Thoughts />
       <Contact />
     </>
   );
