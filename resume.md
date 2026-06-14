@@ -1,110 +1,83 @@
-Erfan khebrati
-Computer engineer
+Erfan Khebrati
 
-khebrati@gmail.com  |  +989390971103  |
-linkedin.com/in/mohammad-erfan-khebrati
-github.com/khebrati
+Computer Engineer
 
-Skills
+khebrati@gmail.com   |   +98 939 097 1103
+linkedin.com/in/mohammad-erfan-khebrati   |   github.com/khebrati
 
-Professional Experience
+SUMMARY
 
-•
-•
-•
-•
+Computer engineer with two and a half years of experience building cross-platform mobile applications and
+backend systems for the medical device industry. Focused on Kotlin Multiplatform development, relational
+database design, and application-layer communication protocols such as BLE and Protocol Buffers.
 
-•
+PROFESSIONAL EXPERIENCE
 
-•
-•
+Nikted (Medical Device Manufacturer)
+09/2023 – 03/2026 (2.5 years)
 
-•
+•  Developed multiplatform products for Android,Windows and iOS using Kotlin Multiplatform (KMP)
 
-Kotlin KMP
+•  Designed and implemented relational databases using SQL for medical-grade applications
 
-SQL
+•  Developed a communication stack based on Bluetooth BLE and Google’s Protocol Buffers
 
-android/compose
+English Teacher
+Summer 2023
 
-C#/.net
+•  Worked as a private English tutor for four months
 
-assembly/Reverse Engineering
+EDUCATION
 
-Git
+BA in Computer Engineering
+Khaje Nasir Toosi University   |   09/2021 – 06/2026
 
-Linux/python
+CERTIFICATIONS
 
-Web dev (html/js/css - express
-js)
+Everything You’ll Need to Know About Git   —   Frontend Masters, 02/2026
 
-Nikted (medical device manufacturer)
-09/2023 - 03/2026 (2 years)
+SKILLS
 
-•
+•  Kotlin Multiplatform (KMP)
 
-•
+•  SQL
 
-•
+•  Android / Jetpack Compose
 
-•
+•  C# / .NET
 
-Design and implementation of relational databases using SQL for medical grade
+•  Assembly / Reverse Engineering
 
-applications
+•  Git
 
-Developed a communication stack based on bluetooth BLE and google’s
+•  Linux / Python
 
-Protocol buffers
+•  Web Development (HTML, CSS,
 
-Design of a custom git workflow for hardware/software team collaborations
+JavaScript, Express.js)
 
-Developed multi platform products for windows/android/ios using KMP
+KEY PROJECTS
 
-Technical Skills
+AudioSense
+Cross-platform hearing-test
+(audiometry) app for Android & iOS,
+built with Kotlin Multiplatform and
+Compose Multiplatform. Features a
+Material 3 Expressive UI, headphone
+calibration, ambient noise detection,
+and visual audiogram results.
+github.com/khebrati/audiosense
 
-Design and implementation of
-relational databases
+LANGUAGES
 
-Multiplatform applications with
-MVI/MVVM architectures in KMP
+English — Advanced
 
-Design of application layer
-communication protocols
+INTERESTS
 
-Languages
+•  Gaming
 
-•
+•  Yoga & mindfulness
 
-English - Advanced
-
-Interests
-
-System programming with
-low-level languages
-
-Networking design and
-implementation
-
-English teacher
-
-4 months
-
-•
-
-Worked as a private English tutor
-
-Education
-BA in Computer engineering
-
-Khaje nasir toosi university
-
-Certifications
-
- 09/2021 - 06/2026
-
-Everything you’ll need to know about git
-
-FrontEndMasters, 02/2026
+•  Reading (non-fiction)
 
 

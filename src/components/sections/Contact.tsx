@@ -88,14 +88,21 @@ export default function Contact() {
         </Reveal>
 
         <Reveal delay={0.2}>
-          <div className="mt-8 text-center text-sm text-text-muted">
+          <div className="mt-8 text-center text-sm text-text-muted space-y-1">
             <p>
-              Or reach out directly at{" "}
               <a
                 href="mailto:khebrati@gmail.com"
                 className="text-accent hover:underline"
               >
                 khebrati@gmail.com
+              </a>
+            </p>
+            <p>
+              <a
+                href="tel:+989390971103"
+                className="text-accent hover:underline"
+              >
+                +98 939 097 1103
               </a>
             </p>
           </div>

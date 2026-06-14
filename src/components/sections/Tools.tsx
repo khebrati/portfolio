@@ -4,22 +4,20 @@ import Link from "next/link";
 import Reveal from "@/components/Reveal";
 
 const tools = [
-  "Kotlin",
-  "KMP",
-  "Jetpack Compose",
-  "Android SDK",
-  "C#",
-  ".NET",
+  "Kotlin Multiplatform",
+  "Compose Multiplatform",
+  "Android / Jetpack Compose",
+  "C# / .NET",
   "SQL",
+  "Protocol Buffers",
+  "Bluetooth BLE",
   "Git",
   "Python",
   "Linux",
   "Assembly",
-  "Protocol Buffers",
-  "Bluetooth BLE",
+  "Reverse Engineering",
   "Express.js",
   "HTML / CSS / JS",
-  "Reverse Engineering",
 ];
 
 export default function Tools() {

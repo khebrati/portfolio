@@ -5,23 +5,19 @@ import Reveal from "@/components/Reveal";
 
 const projects = [
   {
+    title: "AudioSense",
+    category: "KMP / Compose Multiplatform",
+    description:
+      "Cross-platform hearing-test (audiometry) app for Android & iOS built with Kotlin Multiplatform and Compose Multiplatform. Features Material 3 UI, headphone calibration, ambient noise detection, and visual audiogram results.",
+    link: "https://github.com/khebrati/audiosense",
+  },
+  {
     title: "Medical Device Communication Stack",
     category: "KMP / BLE",
     description:
       "Multi-platform Bluetooth Low Energy communication stack using Google's Protocol Buffers for a medical device manufacturer.",
   },
-  {
-    title: "Custom Git Workflow",
-    category: "DevOps",
-    description:
-      "Designed a custom Git branching workflow for cross-functional hardware/software team collaboration.",
-  },
-  {
-    title: "Relational Database Systems",
-    category: "SQL",
-    description:
-      "Designed and implemented relational databases for medical-grade applications ensuring data integrity and compliance.",
-  },
+
 ];
 
 export default function Projects() {
@@ -47,7 +43,13 @@ export default function Projects() {
                   {project.category}
                 </span>
                 <h3 className="mt-3 font-display text-xl font-semibold tracking-tight">
-                  {project.title}
+                  {project.link ? (
+                    <a href={project.link} target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">
+                      {project.title} &nearr;
+                    </a>
+                  ) : (
+                    project.title
+                  )}
                 </h3>
                 <p className="mt-2 text-sm leading-relaxed text-text-muted">
                   {project.description}

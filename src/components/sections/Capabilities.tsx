@@ -3,17 +3,16 @@
 import Reveal from "@/components/Reveal";
 
 const tags = [
-  "Kotlin / KMP",
-  "Android / Compose",
-  "C# / .NET",
+  "Kotlin Multiplatform (KMP)",
   "SQL",
-  "Assembly",
-  "Reverse Engineering",
+  "Android / Jetpack Compose",
+  "C# / .NET",
+  "Assembly / Reverse Engineering",
   "Git",
   "Linux / Python",
   "Bluetooth BLE",
   "Protocol Buffers",
-  "Web (HTML / JS / CSS)",
+  "Web Development (HTML, CSS, JS)",
   "Express.js",
   "System Programming",
   "Networking",

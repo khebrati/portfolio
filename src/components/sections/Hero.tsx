@@ -21,8 +21,9 @@ export default function Hero() {
         </Reveal>
         <Reveal delay={0.2}>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-text-muted">
-            Multi-platform developer focused on building reliable systems
-            across mobile, desktop, and embedded environments.
+            Computer engineer with 2.5 years of experience building
+            cross-platform mobile applications and backend systems for
+            the medical device industry.
           </p>
         </Reveal>
         <Reveal delay={0.3}>

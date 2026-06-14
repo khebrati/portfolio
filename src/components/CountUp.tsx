@@ -7,13 +7,14 @@ interface CountUpProps {
   end: number;
   suffix?: string;
   label: string;
+  decimals?: number;
 }
 
-export default function CountUp({ end, suffix = "", label }: CountUpProps) {
+export default function CountUp({ end, suffix = "", label, decimals = 0 }: CountUpProps) {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-80px" });
   const springValue = useSpring(0, { duration: 2000 });
-  const displayValue = useTransform(springValue, (v) => `${Math.round(v)}${suffix}`);
+  const displayValue = useTransform(springValue, (v) => `${v.toFixed(decimals)}${suffix}`);
 
   useEffect(() => {
     if (isInView) {

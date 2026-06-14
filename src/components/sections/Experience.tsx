@@ -5,18 +5,18 @@ import Reveal from "@/components/Reveal";
 
 const roles = [
   {
-    company: "Nikted",
+    company: "Nikted (Medical Device Manufacturer)",
     role: "Multi-platform Developer",
     period: "09/2023 — 03/2026",
     description:
-      "Medical device manufacturer. Designed relational databases, developed a BLE communication stack with Protocol Buffers, created a custom Git workflow for hardware/software teams, and built multi-platform products using KMP for Windows, Android, and iOS.",
+      "Developed multi-platform products for Android, Windows, and iOS using Kotlin Multiplatform (KMP). Designed and implemented relational databases using SQL for medical-grade applications. Built a BLE communication stack with Google's Protocol Buffers.",
   },
   {
     company: "Freelance",
     role: "English Teacher",
-    period: "4 months",
+    period: "Summer 2023",
     description:
-      "Worked as a private English tutor, helping students improve their language skills through structured one-on-one sessions.",
+      "Worked as a private English tutor for four months, helping students improve their language skills through structured one-on-one sessions.",
   },
 ];
 

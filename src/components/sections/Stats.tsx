@@ -7,9 +7,9 @@ export default function Stats() {
       <div className="mx-auto max-w-6xl px-6">
         <Reveal>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-12">
-            <CountUp end={3} suffix="+" label="Years of experience" />
-            <CountUp end={12} suffix="+" label="Projects completed" />
-            <CountUp end={5} suffix="" label="Clients served" />
+            <CountUp end={2.5} suffix="+" label="Years of experience" decimals={1} />
+            <CountUp end={5} suffix="+" label="Projects completed" />
+            <CountUp end={2} suffix="" label="Clients served" />
           </div>
         </Reveal>
       </div>

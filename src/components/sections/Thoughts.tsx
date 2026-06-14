@@ -10,12 +10,7 @@ const posts = [
     date: "Mar 2026",
     readTime: "6 min read",
   },
-  {
-    title: "Custom Git Workflows for Hardware-Software Teams",
-    excerpt: "How we designed a branching strategy that works for firmware, mobile apps, and backend in one repository.",
-    date: "Jan 2026",
-    readTime: "8 min read",
-  },
+
 ];
 
 export default function Thoughts() {
