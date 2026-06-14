@@ -45,7 +45,7 @@ export default function Projects() {
                 <h3 className="mt-3 font-display text-xl font-semibold tracking-tight">
                   {project.link ? (
                     <a href={project.link} target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">
-                      {project.title} &nearr;
+                      {project.title} ↗
                     </a>
                   ) : (
                     project.title
