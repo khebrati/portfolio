@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const socials = [
@@ -44,10 +45,14 @@ export default function FloatingCard() {
   return (
     <aside className="hidden lg:block w-64 shrink-0 pt-4 pb-4">
       <div className="sticky top-24 flex flex-col items-center gap-5 rounded-2xl border border-neutral-200 bg-white shadow-sm px-6 py-8">
-        <div className="h-28 w-28 rounded-full border-2 border-neutral-200 bg-neutral-100 flex items-center justify-center overflow-hidden shrink-0">
-          <span className="font-display text-4xl font-bold text-neutral-300">
-            EK
-          </span>
+        <div className="h-44 w-44 rounded-full border-2 border-neutral-200 overflow-hidden shrink-0">
+          <Image
+            src="/picture.png"
+            alt="Erfan Khebrati"
+            width={176}
+            height={176}
+            className="h-full w-full object-cover"
+          />
         </div>
 
         <div className="text-center">
