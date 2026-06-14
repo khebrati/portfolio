@@ -32,7 +32,7 @@ export default function Navbar() {
           href="/"
           className="font-display text-lg font-semibold tracking-tight"
         >
-          Erfan Khebrati
+          KMP Developer
         </Link>
 
         <nav className="hidden md:flex items-center gap-8">
